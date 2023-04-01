@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.top_section{
+    min-height: 100vh;
+    background-image: url(/resources/bg-hero-kergan.jpg);
+}
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin: auto 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    color: #000;
+}
+nav ul li a:hover{
+    color: aliceblue;
+}
+
+nav .nav_img {
+    display: flex;
+}
+
+.hero_img {
+    height: 600px;
+    width: 700px;
+}
+
+.content_div {
+    display: flex;
+}
+.content{
+    margin-left: 18rem;
+}
+
+.content_btn {
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-right: 20px;
+
+}
+
+/* About us section start */
+.heading_section{
+    background-color: black;
+    color: aliceblue;
+}
+.heading_div{
+    display: flex;
+}
+
+.service_heading_div{
+    display: flex;
+}
+.para_section{
+    display: flex;
+}
+
+.service_logos{
+    height: 80px;
+    width: 74px;
+    margin-bottom: 1rem;
+}
+
+.server_section{
+    margin: 1rem 9rem 0rem 9rem;
+}
+.service_card{
+    padding: 1rem 5rem 1rem 5rem;
+}
+.form_radio{
+    display: flex;
+    
+}
+.radiosss{
+    padding: 0 2rem 0 2rem;
+
+}

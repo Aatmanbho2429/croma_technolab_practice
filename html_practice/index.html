@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Some simple CSS styling */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+            color: blue;
+			font-size: 28px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+		p {
+            background-color: brown;
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 15px;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		a {
+			color: blue;
+			text-decoration: underline;
+		}
+
+        table {
+			border-collapse: collapse;
+			margin: 20px auto;
+			border: 1px solid black;
+		}
+		th, td {
+			padding: 10px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<!-- Headings -->
+	<h1>Heading Level 1</h1>
+	<h2>Heading Level 2</h2>
+	<h3>Heading Level 3</h3>
+	<h4>Heading Level 4</h4>
+	<h5>Heading Level 5</h5>
+	<h6>Heading Level 6</h6>
+
+	<!-- Paragraphs -->
+	<p>This is a paragraph of text.</p>
+	<p>Here's another paragraph of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis enim euismod, ullamcorper velit ac, ultrices elit.</p>
+
+	<!-- Links -->
+	<p>Here's a link to <a href="https://www.google.com/">Google</a>.</p>
+
+	<!-- Images -->
+	<img src="https://via.placeholder.com/400x200" alt="Placeholder Image">
+
+	<!-- Lists -->
+	<h2>Unordered List</h2>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+
+	<h2>Ordered List</h2>
+	<ol>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ol>
+
+	<!-- Tables -->
+
+	<table>
+		<tr>
+			<th>Header 1</th>
+			<th>Header 2</th>
+			<th>Header 3</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Row 1, Column 1</td>
+			<td>Row 1, Column 2</td>
+			<td>Row 1, Column 3</td>
+		</tr>
+		<tr>
+			<td colspan="2">Row 2, Column 2  Column 3</td>
+		</tr>
+		<tr>
+			<td>Row 3, Column 1</td>
+			<td>Row 3, Column 2</td>
+			<td>Row 3, Column 3</td>
+		</tr>
+	</table>
+	<form>
+		<label for="height">Height (in cm):</label>
+		<input type="number" id="height" name="height"><br><br>
+		<label for="weight">Weight (in kg):</label>
+		<input type="number" id="weight" name="weight"><br><br>
+		<button type="button" onclick="calculateBMI()">Calculate BMI</button><br><br>
+		<h2 id="result"></h2>
+	  </form>
+</body>
+<script src="index.js"></script>
+</html>

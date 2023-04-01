@@ -1,0 +1,113 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 11rem;
+    background-color: #298801;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+.heading-section {
+    width: 30%;
+    left: 10rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-left: 30rem;
+}
+
+.heading-section p {
+    margin-top: 0;
+}
+
+.heading-section h1 {
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 3px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.navbar ul {
+    width: 70%;
+    list-style-type: none;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 1rem;
+}
+
+.content-section {
+    background-color: #298801;
+    display: flex;
+    width: 100%;
+    height: 50rem;
+
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container img {
+    height: 30rem;
+    width: 30rem;
+    padding-left: 12rem;
+}
+
+.content-theory {
+    width: 50%;
+    color: #FFFFFF;
+    margin: 9rem auto auto 0px;
+
+}
+.content-theory h1{
+    font-size: 29px;
+    margin-bottom: 0;
+    width: 50%;
+
+}
+.content-theory p{
+    padding-top: 0px;
+    width: 50%;
+
+}
+.icon-section{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 56rem;
+}
+
+.icon-section-list{
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.icon-section-list li{
+    display: inline-block;
+    width: 17%;
+    margin-top: 15rem;
+}
+.icon-section-list li img{
+    height: 15rem;
+    width: 15rem;
+}
+.icon-section-list li span{
+    display: block;
+    font-size: 55px;
+}
